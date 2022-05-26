@@ -1,4 +1,5 @@
 # colorTransformer.py
+```
 clr_tab = {}
 clr_tab['Clutter'] = [0, 0, 0]
 clr_tab['Building'] = [128, 0, 0]
@@ -8,7 +9,8 @@ clr_tab['Tree'] = [0, 128, 0]
 clr_tab['Vegetation'] = [128, 128, 0]
 clr_tab['Human'] = [64, 64, 0]
 clr_tab['Moving_Car'] = [64, 0, 128]
-输入每个类别的像素值，将这些值转换成从0开始的像素值，如0,1,2,3。。。
+#输入每个类别的像素值，将这些值转换成从0开始的像素值，如0,1,2,3。。。
+```
 # UAVidToolKit
 UAVidToolKit provides basic tools for easier usage of the UAVid dataset.
 Including label conversion, label visualization, performance evaluation and image label path pair txtfile preparation.
